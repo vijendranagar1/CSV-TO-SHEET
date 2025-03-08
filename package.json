@@ -1,0 +1,23 @@
+{
+  "name": "google-sheets-automation",
+  "version": "1.0.0",
+  "description": "Create and update Google Sheets in a shared drive",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "sheets",
+    "automation",
+    "csv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^95.0.0",
+    "csv-parse": "^5.3.0"
+  }
+}
